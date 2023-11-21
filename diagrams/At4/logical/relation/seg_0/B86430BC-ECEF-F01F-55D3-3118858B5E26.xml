@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fact Value dim Custodian FK" directorySegmentName="seg_0" id="B86430BC-ECEF-F01F-55D3-3118858B5E26">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:09:26 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<sourcePk>87595778-0EC8-2A72-EA5A-FBAB3586C446</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0ED39F2-D2CE-6CC7-5A83-7BA33BC8983D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2FD1E61-5436-D11B-CD57-9007CE60C73B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

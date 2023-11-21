@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50537323-5474-B828-CF48-8FD2D8CAAA52" name="dim Time">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 15:42:43 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id dim time" id="66FF4B95-F63A-C5BD-B041-A0F2D2F5F53D">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 15:53:02 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datetime" id="936D4EDC-3F22-A9D4-259D-84E9509D0CCE">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:54:59 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day" id="7C1AEEDC-D2C6-E867-3F3F-39BBA3E38A6C">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:55:43 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="week" id="148F437F-2F3E-E427-061A-8EC2D2508696">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:56:05 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="month" id="0B1F9369-21E9-2D88-ADCA-AB307336A98F">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:56:20 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quarter" id="6BF9AB40-AC0A-677B-E7E8-69477C3190DC">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:56:39 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="6607ED9C-E5F0-DEF2-8670-BD7468E78BE4">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:56:56 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89BAFA90-C5A9-5711-9943-F307F43C1230" name="dim_Time_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 15:53:13 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66FF4B95-F63A-C5BD-B041-A0F2D2F5F53D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

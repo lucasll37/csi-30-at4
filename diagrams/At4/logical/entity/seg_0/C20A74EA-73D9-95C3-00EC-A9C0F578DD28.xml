@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C20A74EA-73D9-95C3-00EC-A9C0F578DD28" name="dim Controller">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 14:40:11 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id dim controller" id="A8DDB2E3-C723-DF65-34D4-F20CBA79993A">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 14:46:18 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NameController" id="DF97FC8C-6660-BA8C-EC99-A6BFDD8060F6">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 14:48:31 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJController" id="F812788B-EEE2-7CD8-D72C-AAD488FF7743">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 14:49:36 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3557ED89-B555-07B7-19E5-B743DAD9736E" name="dim_Controller_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 14:46:37 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8DDB2E3-C723-DF65-34D4-F20CBA79993A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

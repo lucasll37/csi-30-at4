@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB8BE950-22BE-F776-C6ED-2C3675BBC0ED" name="dim_Auditor">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:12:59 UTC</createdTime>
+<generatorID>91E48F15-3530-1B9E-7F46-9122D6A0E7D7</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dim_auditor" id="621CF529-C1E4-EE50-A449-7063B53BBDC5">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:12:59 UTC</createdTime>
+<generatorID>9393121A-3E69-55B2-B5A4-6EA8194328F5</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJAuditor" id="B2FB8309-9C29-0A02-DDB2-30F704048A22">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:12:59 UTC</createdTime>
+<generatorID>9F89BC93-7A37-B20A-846B-1D4357AB6A8A</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NameAuditor" id="B19748C9-8C59-11C8-7D36-3FCE73B1F190">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:12:59 UTC</createdTime>
+<generatorID>32A97527-0C2A-6F1E-02B3-007FF2D06F1D</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE52663C-A0E0-4E0E-5338-7C2F257F9018" name="dim_Auditor_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:12:59 UTC</createdTime>
+<generatorID>197F1F4D-CC40-64F9-919B-DC4C15472B3C</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="621CF529-C1E4-EE50-A449-7063B53BBDC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

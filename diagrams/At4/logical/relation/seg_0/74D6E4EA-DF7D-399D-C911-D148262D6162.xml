@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fact Value dim Auditor FK" directorySegmentName="seg_0" id="74D6E4EA-DF7D-399D-C911-D148262D6162">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:09:36 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<sourcePk>197F1F4D-CC40-64F9-919B-DC4C15472B3C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91E48F15-3530-1B9E-7F46-9122D6A0E7D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2FD1E61-5436-D11B-CD57-9007CE60C73B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

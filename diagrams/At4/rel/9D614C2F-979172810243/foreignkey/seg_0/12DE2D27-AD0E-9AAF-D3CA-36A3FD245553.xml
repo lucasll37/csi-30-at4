@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12DE2D27-AD0E-9AAF-D3CA-36A3FD245553" containerWithKeyObject="E65C4FB1-5B4D-64D3-D2A7-E9952E175024" localFKIndex="779759C0-EA96-EBEF-4CAE-22BDF7D40D9D" name="fact_Value_dim_Controller_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:12:59 UTC</createdTime>
+<generatorID>DF5CDBFF-7459-0C11-80E9-DCE21E19D439</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<referredTableLongName>dim_Controller</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABE03C63-A951-B56A-26A1-49FC344D7AB8</referredTableID>
+<keyObject>6E4A826F-6CFA-9D31-13D9-A09D46C9D43D</keyObject>
+<referredKeyID>6E4A826F-6CFA-9D31-13D9-A09D46C9D43D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dim_controller</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

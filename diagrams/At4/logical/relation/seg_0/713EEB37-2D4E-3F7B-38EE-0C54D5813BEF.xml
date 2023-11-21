@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fact Value dim Manager FK" directorySegmentName="seg_0" id="713EEB37-2D4E-3F7B-38EE-0C54D5813BEF">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 17:09:09 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+</engineerTo>
+<sourcePk>95C6D963-F7FE-C734-219B-B6B0E35BDAAC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8176CCC4-4ECE-C73C-0C60-4CAAD91AF63E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2FD1E61-5436-D11B-CD57-9007CE60C73B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
