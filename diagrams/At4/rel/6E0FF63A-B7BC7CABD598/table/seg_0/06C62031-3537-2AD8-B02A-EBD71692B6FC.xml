@@ -1,0 +1,290 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06C62031-3537-2AD8-B02A-EBD71692B6FC" name="fact_Value">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>B2FD1E61-5436-D11B-CD57-9007CE60C73B</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dim_time" id="85727BC1-1F42-10B6-3673-D92678D1DD60">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>DAB54F7B-83B5-8959-E342-70FB4C6C10FC</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="029DEC9B-C863-7554-B831-4CE2669CB1A3" referredColumn="E85699FF-521E-AD9F-DA86-D26F8C04ADD6"/>
+</associations>
+</Column>
+<Column name="id_dim_investment_fund" id="AE915769-3A57-552A-8F00-6C1057DA2E03">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>5BD9F4E2-1B00-BA8D-368F-869AE92CA219</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69441830-4002-4732-933D-EA839F24AABF" referredColumn="E05798AC-4F69-EA49-1A12-700B2359780C"/>
+</associations>
+</Column>
+<Column name="id_dim_admin" id="DD81DA6A-6B10-8E74-62E9-A866BD61B032">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>12254467-0510-774A-6B21-018EAE631C45</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C63CC430-5EDE-5667-C2FB-90CFE3199B57" referredColumn="433B6AA7-EA26-9B9C-F4F4-2F3F76F4780D"/>
+</associations>
+</Column>
+<Column name="id_dim_manager" id="4E4509C7-459E-BB36-91E3-437D80BF1029">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>82A53F70-3FBC-C769-9885-8D2E3166A9E6</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8D39B56-887F-6EF7-2DCD-10371BCE0CE6" referredColumn="F68D3602-9C34-20EE-0C26-4D8A893D3CED"/>
+</associations>
+</Column>
+<Column name="id_dim_auditor" id="AD01A1AE-D6D5-9B90-0CA4-16BD03D606E6">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>293A1AFE-DB24-D83C-4577-598E45B6B6A4</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B58D7C3C-DCDE-9E15-D39E-6B65BAC189B5" referredColumn="6C930835-9DAA-50C0-CB0A-E0900DDABF08"/>
+</associations>
+</Column>
+<Column name="id_dim_custodian" id="6D4C5F83-5CA5-D02B-8A5A-483E3B2C338B">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>CB7BC132-38DD-5879-BD04-7A5751EA1345</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DB00A8B-3B12-1C7B-0B23-7482CAFE8602" referredColumn="C939DFB2-38A3-1A55-BF3F-94EFD111183A"/>
+</associations>
+</Column>
+<Column name="id_dim_controller" id="F07360DC-64FF-FC68-9115-5A1A2946AE62">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>B1CE6B68-D96A-F197-5FD5-CE7AF492AC7D</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1BC574A-48EC-9B18-E84B-1EE805250838" referredColumn="0C1AF540-0D25-A7D3-0EE3-4877F8C8B9CC"/>
+</associations>
+</Column>
+<Column name="Total" id="E025BD2C-2661-83BD-F062-91AB1C028127">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>1FAE3B7C-AAE5-D324-8AC6-4E4186C3B4D0</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quota" id="C5FCFBF2-C70A-79AB-4E5D-9E23B10E1549">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>3CF9B535-43D9-7CB3-B0D1-BD47328EC507</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NetWorth" id="6417F45F-FA7B-44C6-EA26-9D4458D5C419">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>0D742C01-F84C-0C5A-40A6-7C4C6EAA8B7A</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CaptDay" id="4C94A8F8-6115-17FC-5331-B14EE4FD1B5A">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>EE304E4B-8EA7-E4A3-0F29-BBF5C474CDCD</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RescueDay" id="867A707D-7AE1-36C0-D049-AF4180CA2866">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>FEF6DF95-053B-0DDB-6224-0550BCEF9BFF</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NQuotaHolders" id="C4B293C3-E09A-C1A3-1236-712AC5E5EEB2">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>258DE7DB-8F2E-4569-43A7-75C11835AF62</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CD19FFC-6F2A-1E33-5541-CF6E2701576C" name="fact_Value_PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>341432AF-F7A5-DF09-33C8-32A9B0EED3B9</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE915769-3A57-552A-8F00-6C1057DA2E03"/>
+<colUsage columnID="85727BC1-1F42-10B6-3673-D92678D1DD60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7366E5B9-CD8C-3A1D-5903-302E39B753AD" name="fact_Value_dim_Controller_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>51D84382-9A78-DDE3-63A9-FF99002B0A0D</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F07360DC-64FF-FC68-9115-5A1A2946AE62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCBFB46-B72C-A78B-FE18-0912E2540A78" name="fact_Value_dim_Auditor_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>E7F695C3-42B2-F0D4-3649-060812CA7534</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD01A1AE-D6D5-9B90-0CA4-16BD03D606E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90622662-90F7-D9AA-E1CF-4F79C4599E5A" name="fact_Value_dim_Custodian_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>2010690C-D105-9024-2254-D5C30DBAD67C</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D4C5F83-5CA5-D02B-8A5A-483E3B2C338B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7536A6B-F719-2CE2-6D32-49178C72E98D" name="fact_Value_dim_Admin_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>8126D386-7285-4E27-4CA5-01208976EDED</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD81DA6A-6B10-8E74-62E9-A866BD61B032"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E0D9AC1-D541-2B06-BA0A-8AC2E65A67C1" name="fact_Value_dim_Manager_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>2CD85DD9-E17B-DE62-9548-BCCF580BA773</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E4509C7-459E-BB36-91E3-437D80BF1029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E3DC87C-3C24-169C-6639-27D126CA1040" name="fact_Value_dim_Investment_Fund_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>44C513BF-530A-C518-E127-98ABD7C1C5BF</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE915769-3A57-552A-8F00-6C1057DA2E03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5BD171B-B4A3-5C8E-2A0F-3066323C4CE0" name="fact_Value_dim_Time_FK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:34:37 UTC</createdTime>
+<generatorID>EF7BD19A-96E1-DF4F-66A5-BFEB4E5F1712</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85727BC1-1F42-10B6-3673-D92678D1DD60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

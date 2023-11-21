@@ -5,7 +5,7 @@
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,28 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NetWorth" id="0D742C01-F84C-0C5A-40A6-7C4C6EAA8B7A">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 16:18:42 UTC</createdTime>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,20,2</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Total" id="1FAE3B7C-AAE5-D324-8AC6-4E4186C3B4D0">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:20:15 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,14 +37,59 @@
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
+<dataTypePrecision>20</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NetWorth" id="0D742C01-F84C-0C5A-40A6-7C4C6EAA8B7A">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:18:42 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CaptDay" id="EE304E4B-8EA7-E4A3-0F29-BBF5C474CDCD">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 13:16:28 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RescueDay" id="FEF6DF95-053B-0DDB-6224-0550BCEF9BFF">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 13:18:23 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NQuotaHolders" id="258DE7DB-8F2E-4569-43A7-75C11835AF62">
 <createdBy>lucas</createdBy>
@@ -67,21 +97,21 @@
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id dim time" id="E90C200F-8D24-CEF2-0B83-B63928F6FD1F">
+<Attribute name="id dim time" id="DAB54F7B-83B5-8959-E342-70FB4C6C10FC">
 <createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:08:10 UTC</createdTime>
-<generatorID>14EC14AD-4728-E479-1430-6B58C4D2067E</generatorID>
+<createdTime>2023-11-21 19:32:40 UTC</createdTime>
+<generatorID>EF7BD19A-96E1-DF4F-66A5-BFEB4E5F1712</generatorID>
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
 <referedAttribute>66FF4B95-F63A-C5BD-B041-A0F2D2F5F53D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,91 +119,96 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id fact investment fund" id="8BDA1352-4B17-0435-1215-A594CF996057">
+<Attribute name="id dim controller" id="B1CE6B68-D96A-F197-5FD5-CE7AF492AC7D">
 <createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:08:47 UTC</createdTime>
-<generatorID>EDCB2AFA-36F6-43E8-0814-683D61561DC4</generatorID>
+<createdTime>2023-11-21 19:32:50 UTC</createdTime>
+<generatorID>51D84382-9A78-DDE3-63A9-FF99002B0A0D</generatorID>
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
-<referedAttribute>942EF3BD-010B-CA4F-33D4-BE7907D87CE8</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A8DDB2E3-C723-DF65-34D4-F20CBA79993A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id dim manager" id="29E8584E-A327-B139-EA12-509A2B8F0003">
+<Attribute name="id dim auditor" id="293A1AFE-DB24-D83C-4577-598E45B6B6A4">
 <createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:09:09 UTC</createdTime>
-<generatorID>713EEB37-2D4E-3F7B-38EE-0C54D5813BEF</generatorID>
+<createdTime>2023-11-21 19:33:02 UTC</createdTime>
+<generatorID>E7F695C3-42B2-F0D4-3649-060812CA7534</generatorID>
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
-<referedAttribute>723CF03A-432E-17B4-BE0B-FBF823B66952</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id dim admin" id="939352EF-9ABF-4F1C-E61B-0F6CE256F7CA">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:09:19 UTC</createdTime>
-<generatorID>DB958DC3-A4A1-F163-14A8-4E9ECAD0DD27</generatorID>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
-<referedAttribute>BE1AA3C3-7691-4E2E-1319-51C0F65F5AFB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id dim custodian" id="8972C629-8991-78F3-8DB2-6D239A188C13">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:09:26 UTC</createdTime>
-<generatorID>B86430BC-ECEF-F01F-55D3-3118858B5E26</generatorID>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
-<referedAttribute>23EA9114-1BC1-E734-5ADE-0E5879621287</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id dim auditor" id="1DF895FC-7E1A-1D72-AAA7-65D23F9451DD">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:09:36 UTC</createdTime>
-<generatorID>74D6E4EA-DF7D-399D-C911-D148262D6162</generatorID>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>9393121A-3E69-55B2-B5A4-6EA8194328F5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id dim controller" id="0711153C-CE92-9830-D925-5BC828584743">
+<Attribute name="id dim custodian" id="CB7BC132-38DD-5879-BD04-7A5751EA1345">
 <createdBy>lucas</createdBy>
-<createdTime>2023-11-19 17:09:43 UTC</createdTime>
-<generatorID>DF5CDBFF-7459-0C11-80E9-DCE21E19D439</generatorID>
+<createdTime>2023-11-21 19:33:18 UTC</createdTime>
+<generatorID>2010690C-D105-9024-2254-D5C30DBAD67C</generatorID>
 <ownerDesignName>At4</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
-<referedAttribute>A8DDB2E3-C723-DF65-34D4-F20CBA79993A</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>23EA9114-1BC1-E734-5ADE-0E5879621287</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id dim admin" id="12254467-0510-774A-6B21-018EAE631C45">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:33:27 UTC</createdTime>
+<generatorID>8126D386-7285-4E27-4CA5-01208976EDED</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BE1AA3C3-7691-4E2E-1319-51C0F65F5AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id dim manager" id="82A53F70-3FBC-C769-9885-8D2E3166A9E6">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:33:37 UTC</createdTime>
+<generatorID>2CD85DD9-E17B-DE62-9548-BCCF580BA773</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>723CF03A-432E-17B4-BE0B-FBF823B66952</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dim_investment_fund" id="5BD9F4E2-1B00-BA8D-368F-869AE92CA219">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-21 19:33:51 UTC</createdTime>
+<generatorID>44C513BF-530A-C518-E127-98ABD7C1C5BF</generatorID>
+<ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
+</engineerTo>
+<referedAttribute>942EF3BD-010B-CA4F-33D4-BE7907D87CE8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -186,19 +221,11 @@
 <createdTime>2023-11-21 00:44:30 UTC</createdTime>
 <generatorID>58835FB2-E1AF-A6B0-07EE-F959D9F8A8C8</generatorID>
 <ownerDesignName>At4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="true"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>E90C200F-8D24-CEF2-0B83-B63928F6FD1F</attributeRef>
-<attributeRef>8BDA1352-4B17-0435-1215-A594CF996057</attributeRef>
-<attributeRef>29E8584E-A327-B139-EA12-509A2B8F0003</attributeRef>
-<attributeRef>939352EF-9ABF-4F1C-E61B-0F6CE256F7CA</attributeRef>
-<attributeRef>8972C629-8991-78F3-8DB2-6D239A188C13</attributeRef>
-<attributeRef>1DF895FC-7E1A-1D72-AAA7-65D23F9451DD</attributeRef>
-<attributeRef>0711153C-CE92-9830-D925-5BC828584743</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

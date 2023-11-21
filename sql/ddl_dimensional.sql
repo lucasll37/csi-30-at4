@@ -60,7 +60,7 @@ GO
 
 CREATE TABLE dim_Investment_Fund 
     (
-     id_fact_investment_fund INTEGER IDENTITY(1,1) NOT NULL , 
+     id_dim_investment_fund INTEGER IDENTITY(1,1) NOT NULL , 
      DenomSocial VARCHAR (300) NOT NULL , 
      CNPJ VARCHAR (30) NOT NULL , 
      ClassAMBIMA VARCHAR (100) , 
@@ -77,11 +77,12 @@ CREATE TABLE dim_Investment_Fund
      Condom VARCHAR (100) , 
      RentabFund VARCHAR (100) , 
      TypeFund VARCHAR (100) , 
-     TargetAudience VARCHAR (100) 
+     TargetAudience VARCHAR (100) , 
+     NetWorth DECIMAL (20,2) 
     )
 GO
 
-ALTER TABLE dim_Investment_Fund ADD CONSTRAINT dim_Investment_Fund_PK PRIMARY KEY CLUSTERED (id_fact_investment_fund)
+ALTER TABLE dim_Investment_Fund ADD CONSTRAINT dim_Investment_Fund_PK PRIMARY KEY CLUSTERED (id_dim_investment_fund)
      WITH (
      ALLOW_PAGE_LOCKS = ON , 
      ALLOW_ROW_LOCKS = ON )
@@ -90,9 +91,9 @@ GO
 CREATE TABLE dim_Manager 
     (
      id_dim_manager INTEGER IDENTITY(1,1) NOT NULL , 
-     CPF_CNPJManager VARCHAR (30) NOT NULL , 
      NameJManager VARCHAR (200) NOT NULL , 
-     PF_PJ_Manager VARCHAR (2) NOT NULL 
+     PF_PJ_Manager VARCHAR (2) NOT NULL , 
+     CPF_CNPJManager VARCHAR (30) NOT NULL 
     )
 GO
 
@@ -122,21 +123,23 @@ GO
 
 CREATE TABLE fact_Value 
     (
-     id_dim_time INTEGER IDENTITY(1,1) NOT NULL , 
-     id_fact_investment_fund INTEGER NOT NULL , 
-     id_dim_manager INTEGER NOT NULL , 
-     id_dim_admin INTEGER NOT NULL , 
-     id_dim_custodian INTEGER NOT NULL , 
-     id_dim_auditor INTEGER NOT NULL , 
-     id_dim_controller INTEGER NOT NULL , 
-     NetWorth DECIMAL (20,2) NOT NULL , 
+     id_dim_time INTEGER NOT NULL , 
+     id_dim_investment_fund INTEGER NOT NULL , 
+     id_dim_admin INTEGER , 
+     id_dim_manager INTEGER , 
+     id_dim_auditor INTEGER , 
+     id_dim_custodian INTEGER , 
+     id_dim_controller INTEGER , 
      Total DECIMAL (20,2) NOT NULL , 
-     Quota DECIMAL (6,2) NOT NULL , 
+     Quota DECIMAL (20,2) NOT NULL , 
+     NetWorth DECIMAL (20,2) NOT NULL , 
+     CaptDay DECIMAL (20,2) NOT NULL , 
+     RescueDay DECIMAL (20,2) NOT NULL , 
      NQuotaHolders INTEGER NOT NULL 
     )
 GO
 
-ALTER TABLE fact_Value ADD CONSTRAINT fact_Value_PK PRIMARY KEY CLUSTERED (id_dim_time, id_fact_investment_fund, id_dim_manager, id_dim_admin, id_dim_custodian, id_dim_auditor, id_dim_controller)
+ALTER TABLE fact_Value ADD CONSTRAINT fact_Value_PK PRIMARY KEY CLUSTERED (id_dim_investment_fund, id_dim_time)
      WITH (
      ALLOW_PAGE_LOCKS = ON , 
      ALLOW_ROW_LOCKS = ON )
@@ -197,11 +200,11 @@ GO
 ALTER TABLE fact_Value 
     ADD CONSTRAINT fact_Value_dim_Investment_Fund_FK FOREIGN KEY 
     ( 
-     id_fact_investment_fund
+     id_dim_investment_fund
     ) 
     REFERENCES dim_Investment_Fund 
     ( 
-     id_fact_investment_fund 
+     id_dim_investment_fund 
     ) 
     ON DELETE NO ACTION 
     ON UPDATE NO ACTION 

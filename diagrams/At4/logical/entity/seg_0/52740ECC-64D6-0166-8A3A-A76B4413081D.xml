@@ -3,9 +3,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 14:42:52 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,13 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id fact investment fund" id="942EF3BD-010B-CA4F-33D4-BE7907D87CE8">
+<Attribute name="id_dim_investment_fund" id="942EF3BD-010B-CA4F-33D4-BE7907D87CE8">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:43:34 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,23 +31,21 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:17:18 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CNPJ" id="C2FEADAC-F2D8-6E2B-A24C-83B07667F59C">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:16:16 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,9 +57,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:50:00 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,9 +71,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:54:50 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,9 +84,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:55:12 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,84 +97,78 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:55:36 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Situation" id="9B206465-8FF7-279C-D944-85E4BAEC5038">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:56:04 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TaxPerfomance" id="A3562090-EFCE-5225-873E-5999361AFEB1">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 15:59:00 UTC</createdTime>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TaxAdm" id="99266778-A05D-3B6A-081E-AA19D93350A2">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 15:59:22 UTC</createdTime>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Director" id="E8E1BCA5-65EA-B3CD-0E95-2837EDFA2A46">
-<createdBy>lucas</createdBy>
-<createdTime>2023-11-19 16:00:17 UTC</createdTime>
-<ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="TaxPerfomance" id="A3562090-EFCE-5225-873E-5999361AFEB1">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 15:59:00 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TaxAdm" id="99266778-A05D-3B6A-081E-AA19D93350A2">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 15:59:22 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director" id="E8E1BCA5-65EA-B3CD-0E95-2837EDFA2A46">
+<createdBy>lucas</createdBy>
+<createdTime>2023-11-19 16:00:17 UTC</createdTime>
+<ownerDesignName>At4</ownerDesignName>
+<engineerTo>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="FundCotas" id="3A2E77D7-8A16-C5F3-B664-95B023E1EF65">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:01:19 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -194,9 +181,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:03:48 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -209,39 +195,36 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:04:44 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Condom" id="512AC9E7-D43F-013F-C3CE-625F6EAC0CF1">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:05:21 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RentabFund" id="DAEF07CE-CD4C-8B60-5ADF-76F09184B472">
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:10:31 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -254,9 +237,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 16:11:29 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -269,9 +251,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 17:02:54 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -286,9 +267,8 @@
 <createdBy>lucas</createdBy>
 <createdTime>2023-11-19 15:44:18 UTC</createdTime>
 <ownerDesignName>At4</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9D614C2F-996A-93B3-9FDD-979172810243" value="false"/>
+<item key="6E0FF63A-4220-451F-899A-B7BC7CABD598" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
